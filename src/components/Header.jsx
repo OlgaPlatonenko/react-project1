@@ -9,7 +9,7 @@ function Header({
     return (
         <div class="header">
             <h2>{title}</h2>
-            <button onClick={() => setActive(!isOpen)}>Open Menu</button>
+            <button onClick={() => setActive(!isOpen)} className="btn-header">Open Menu</button>
             {
              isOpen ? <Menu /> : null
              }

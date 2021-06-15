@@ -1,6 +1,16 @@
-.menu{
-    background-color: aqua;
+.navigation_menu{
+    width: 20%;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;    
 }
-.btn-main{
-    margin-bottom: 20px;
+
+.close-btn{
+    width: 20px;
+    position: fixed;
+    top: 10px;
+    left: 80px;
+
 }

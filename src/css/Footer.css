@@ -1,3 +1,15 @@
 .footer_text{
-    color: blueviolet;
+    color: rgb(12, 28, 43);;
+}
+
+.footer{
+height: 30px;
+width: 100%;
+background-color: #9ba3f0;
+align-items: center;
+color: rgb(12, 28, 43); 
+text-align: center;
+position: absolute;
+left: 0;
+bottom: 0;
 }

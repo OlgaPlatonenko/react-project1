@@ -1,3 +1,29 @@
 .header{
-    background-color: aqua;
+    background-color: rgb(213, 223, 223);
+   padding-top: 20px;
+   padding-bottom: 10px;
+   width: 100%;  
+}
+.header h2{
+    color: blue;
+   text-align: center;  
+    margin-bottom: 20px;
+}
+.btn-header{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 186px;
+    height: 42px;
+    padding: 11px 31px;
+    background-color: #9ba3f0;
+    border-radius: 8px;  
+    border-width: 0;
+    transition: 0.3s; 
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: #31087e;
+    color: #ecdddd; 
 }

@@ -1,8 +1,10 @@
-.main h1{
-   
-    color: blue;    
+.main h1{   
+    color: blue;   
+    margin-top: 250px; 
+    text-align: center;
+    
   } 
 
-  .main button{
-    margin-bottom: 20px;
-  }
+.main{
+
+}
