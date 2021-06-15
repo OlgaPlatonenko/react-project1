@@ -1,6 +1,6 @@
 import '../css/Menu.css';
 
-function Menu() {
+function Menu() {   
     return (      
       <div class="menu">
            my menu!!!!!

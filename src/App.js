@@ -2,21 +2,15 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Header from './components/Header';
-import startMenu from './components/ShowMenu';
+import useState from 'react';
 
-function openMenu(){
- // alert('open menu');
- return(
-   <Menu />
- )
-}
 
 function App() {
   return (
     <div>
       <Header
         title="Header_title"
-        handleMenuOpen={openMenu}
+        //handleMenuOpen={openMenu}
       />
       <Menu />
       <Main />

@@ -1,14 +1,19 @@
 import '../css/Header.css';
+import {useState} from 'react';
+import Menu from './Menu';
 
 function Header({
-    title='',
-    handleMenuOpen,
-}){
-    return(
+    title = '',  
+}) {
+    const [isOpen, setActive] = useState(false);
+    return (
         <div class="header">
             <h2>{title}</h2>
-            <button onClick={handleMenuOpen}>Open Menu</button>
-        </div>
+            <button onClick={() => setActive(!isOpen)}>Open Menu</button>
+            {
+             isOpen ? <Menu /> : null
+             }
+           </div >
     )
 }
 
