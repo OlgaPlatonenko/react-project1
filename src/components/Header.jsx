@@ -3,18 +3,16 @@ import {useState} from 'react';
 import Menu from './Menu';
 
 function Header({
-    title = '',  
+    title='',
+    openMenu,
 }) {
-    const [isOpen, setActive] = useState(false);
-    return (
-        <div class="header">
-            <h2>{title}</h2>
-            <button onClick={() => setActive(!isOpen)} className="btn-header">Open Menu</button>
-            {
-             isOpen ? <Menu /> : null
-             }
-           </div >
-    )
+    
+   return(
+       <header>
+          <h2>{title}</h2>
+          <button onClick={openMenu} class="btn-header">Open menu</button>
+       </header>
+   )
 }
 
 export default Header;
